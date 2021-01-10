@@ -135,3 +135,11 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 16.1.0
+
+#SHRP specific Build Flags
+SHRP_DEVICE_CODE := phoenix
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := hraj9258
+SHRP_REC_TYPE := SAR
+SHRP_REC := </dev/block/bootdevice/by-name/recovery>
+
